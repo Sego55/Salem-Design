@@ -44,6 +44,11 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(./Wraith\ Types\ -\ WT\ Volkolak\ Sans\ Poster\ Thin.otf);
+}
+
 
 *,
 *::before,
@@ -10690,23 +10695,24 @@ body {
       rgba(0, 0, 0, 0.7) 75%,
       #000000 100%
     ),
-    url("../assets/img/181454178_129697915868797_1182773655683333069_n.png");
+    url("../assets/img/Background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 .masthead h1 {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family:"Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(#a08319, #6b591b);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+
 }
 .masthead h2 {
   max-width: 20rem;
@@ -10714,7 +10720,7 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 4rem;
   }
 }
